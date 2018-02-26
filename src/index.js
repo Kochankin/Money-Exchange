@@ -1,4 +1,3 @@
-// PLEASE DON'T change function name
 module.exports = function makeExchange(currency) {
     var nomH = 50;
 	var nomQ = 25;
@@ -42,5 +41,4 @@ module.exports = function makeExchange(currency) {
 		
 		return result;
 	}
-}
 }
